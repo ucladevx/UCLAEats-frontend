@@ -1,0 +1,16 @@
+--- One-time setup instructions:
+1) Clone this github repo
+
+2) Download the aws-credentials.json from the Google Drive (Don't Eat Alone/Resources/Credentials/Website Hosting S3/) and place it in the root directory of the repo.
+CAUTION: This file must never be shared, and is added to .gitignore to prevent upload
+
+3) npm install s3-upload (https://github.com/jamestalmage/s3-static-site-uploader)
+
+--- Deployment instructions:
+1) git add -A
+
+2) git commit -m "COMMIT MESSAGE"
+
+3) git push BRANCH_NAME
+
+4) s3-upload (only run this on production branch)
